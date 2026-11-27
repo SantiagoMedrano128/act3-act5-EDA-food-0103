@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 ## Santiago Medrano NC 0103
 df_food_india = pd.read_csv('indian_food.csv')
 print("\n--- DATOS LEÍDOS DESDE CSV comida India 0103 ---")
+print("Santiago Medrano NC 0103")
 print(df_food_india)
 print("\n--- Mostrar nombre comida + ingrediantes, comida India 0103 ---")
 recipes = df_food_india [['name', 'ingredients']]
@@ -30,3 +31,4 @@ plt.title('Grafica de 2 columnas apiladas Santiago Medrano 0103')
 plt.xlabel('Nombre platillo')
 plt.ylabel('tiempo de coccion prep comida')
 plt.show()
+print(" Santiago Medrano NC 0103")
